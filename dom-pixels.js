@@ -6,6 +6,7 @@ var GifReader     = require('omggif').GifReader
 var pack          = require('ndarray-pack')
 var through       = require('through')
 var parseDataURI  = require('data-uri-to-buffer')
+var Buffer        = require("buffer/").Buffer
 
 function defaultImage(url, cb) {
   var img = new Image()

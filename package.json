@@ -7,6 +7,7 @@
     "test": "test"
   },
   "dependencies": {
+    "buffer": "^6.0.3",
     "data-uri-to-buffer": "0.0.3",
     "jpeg-js": "^0.4.1",
     "mime-types": "^2.0.1",
@@ -15,8 +16,11 @@
     "node-bitmap": "0.0.1",
     "omggif": "^1.0.5",
     "parse-data-uri": "^0.2.0",
+    "path": "^0.12.7",
+    "process": "^0.11.10",
     "pngjs": "^3.3.3",
     "request": "^2.44.0",
+    "stream": "^0.0.2",
     "through": "^2.3.4"
   },
   "devDependencies": {
